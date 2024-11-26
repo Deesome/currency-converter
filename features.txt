@@ -1,0 +1,11 @@
+Key Features:
+Real-Time Currency Conversion: Users can input an amount and select currencies to convert between, with real-time exchange rates pulled from an API.
+Support for Multiple Currencies: You can include popular currencies like USD, EUR, INR, JPY, etc.
+Currency Rate History: Show historical data for a specific currency pair (optional).
+Base Currency: Allow users to set a base currency for conversion, so the amount entered is always converted to other currencies.
+User-Friendly Interface: Clean and easy-to-use design with input fields, dropdowns, and a result display.
+Responsive Design: Ensure the app works well on mobile, tablet, and desktop.
+Optional Features:
+Save favorite currencies.
+Option for reverse conversion (clicking on a result to reverse the conversion).
+Provide additional data like the currency symbol and the country where it's used.
