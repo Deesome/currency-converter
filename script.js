@@ -1,4 +1,4 @@
-const apiURL = `http://api.exchangeratesapi.io/v1/latest?access_key=7f8de6d52602457c550d4ead9c65e8b6`
+const apiURL = `http://api.exchangeratesapi.io/v1/latest?access_key={Your key}`
 let cachedData;
 
 async function apiCall(apiURL) {
