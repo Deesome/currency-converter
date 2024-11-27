@@ -67,15 +67,26 @@ async function currencyConverter() {
 
 
     const result = parseFloat((amount * (data.rates[to] / data.rates[from])).toFixed(2))
+    
+    const convertedAmount = document.querySelector("#converted-amount")
+    convertedAmount.classList.remove("hidden")
+    convertedAmount.children.innerText = result
 
-    console.log(result)
+
+
 
 }
 
 const button = document.querySelector("#convert-btn")
 button.addEventListener("click", () => {
-    currencyConverter()
+     currencyConverter()
+    
 })
+
+
+
+
+
 
 
 
